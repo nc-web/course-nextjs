@@ -2,9 +2,9 @@
 import Link from "next/link"
 
 // Styles
-import styles from './main-menu-desktop.module.css'
+import styles from './login-menu-desktop.module.css'
 
-export default function MainMenuDesktop() {
+export default function LoginMenuDesktop() {
   return(
     <>
       <menu className={styles.main}>
@@ -20,9 +20,9 @@ export default function MainMenuDesktop() {
                 
             </Link>
 
-            <Link className={styles.main__nav_link} href="/store">
+            <Link className={styles.main__nav_link} href="/register">
                 <div className={styles.main__nav_items}>
-                    Store
+                    Register
                 </div>
                 
             </Link>
