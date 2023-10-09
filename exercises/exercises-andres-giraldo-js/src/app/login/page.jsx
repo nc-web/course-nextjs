@@ -2,7 +2,7 @@
 export default function Login() {
     return(
         <>
-            Page Login
+            <h2>Page Login</h2>
         </>
     )
 }
