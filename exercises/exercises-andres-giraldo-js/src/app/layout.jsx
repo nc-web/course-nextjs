@@ -18,6 +18,7 @@ export const metadata = {
   description: 'Virtual Store Andres Giraldo, Mobiles, Tablets, Laptops, PC Desktops',
 }
 
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
