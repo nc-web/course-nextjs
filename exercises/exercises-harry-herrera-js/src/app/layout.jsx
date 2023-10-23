@@ -1,11 +1,9 @@
 
 import './globals-styles.css'
-import { Inter, Roboto } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 
 // Menus
 import MainMenuDesktop from '@views/menus/main-menu/main-menu-desktop/MainMenuDesktop'
-
-// const inter = Inter({ subsets: ['latin'] })
 
 const roboto = Roboto({ subsets: ['latin'], weight: ['400'], style: ['italic'], preload: true })
 
@@ -19,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={roboto.className}>
 
-      <MainMenuDesktop></MainMenuDesktop>
+      {/* <MainMenuDesktop></MainMenuDesktop> */}
       
       {children}
       
