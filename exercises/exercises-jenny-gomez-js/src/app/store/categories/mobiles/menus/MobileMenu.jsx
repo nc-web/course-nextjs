@@ -1,36 +1,37 @@
 
+
 import Link from "next/link"
 
 // Styles
-import styles from './store-menu-desktop.module.css'
+import styles from './mobile-menu-desktop.module.css'
 
-export default function StoreMenuDesktop() {
+export default function MobileMenuDesktop() {
   return(
     <>
       <menu className={styles.main}>
         <div className={styles.main__nav}>
-            <Link className={styles.main__nav_link} href="/store/categories/mobiles">
+            <Link className={styles.main__nav_link} href="/store">
                 <div className={styles.main__nav_items}>
-                    Mobiles
+                    Huawei
                 </div>
                 
             </Link>
 
-            <Link href="/store/categories/tablets" className={styles.main__nav_link}>
+            <Link href="/login" className={styles.main__nav_link}>
                 <div className={styles.main__nav_items}>
-                    Tablets
+                    Xiaomi
                 </div>
            </Link>
 
-                <Link href="/store/categories/laptops" className={styles.main__nav_link}>
+                <Link href="/login" className={styles.main__nav_link}>
                 <div className={styles.main__nav_items}>
-                    Laptops
+                    Samsung
                 </div>
                 </Link>
 
-                <Link href="/store/categories/desktop" className={styles.main__nav_link}>
+                <Link href="/login" className={styles.main__nav_link}>
                 <div className={styles.main__nav_items}>
-                    Desktop
+                    Iphone
                 </div>
                 </Link>
         </div>
