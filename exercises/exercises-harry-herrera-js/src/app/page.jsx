@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
 
-      {/* <MainMenuDesktop></MainMenuDesktop> */}
+      <MainMenuDesktop></MainMenuDesktop>
       <h2>Page Principal</h2>
     </main>
   )
