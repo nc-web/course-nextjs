@@ -1,0 +1,16 @@
+
+.button {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: .5rem;
+    width: 5rem;
+    border-radius: .5rem;
+    background-color: #352387;
+    color: #ffff;
+
+    &::hover {
+        background-color: #569457;
+        transition: .5s;
+    }
+}
