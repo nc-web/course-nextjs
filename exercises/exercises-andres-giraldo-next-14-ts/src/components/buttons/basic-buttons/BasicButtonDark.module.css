@@ -1,0 +1,16 @@
+
+.button {
+    width: 5rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: gray;
+    color: azure;
+
+    &:hover {
+        background-color: blueviolet;
+        transition: .5s;
+    }
+}
