@@ -1,4 +1,8 @@
+
+// import type { AddonOptionsBabel } from '@storybook/addon-coverage';
+import type { AddonOptionsVite } from '@storybook/addon-coverage';
 import type { StorybookConfig } from "@storybook/nextjs";
+
 
 const config: StorybookConfig = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
@@ -7,6 +11,8 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@storybook/addon-onboarding",
     "@storybook/addon-interactions",
+    '@storybook/addon-a11y',
+    '@storybook/addon-coverage',
   ],
   framework: {
     name: "@storybook/nextjs",

@@ -7,9 +7,9 @@
     align-items: center;
     text-align: center;
     background-color: gray;
-    color: azure;
+    color: yellow;
 
-    &:hover {
+    .button:hover {
         background-color: blueviolet;
         transition: .5s;
     }
