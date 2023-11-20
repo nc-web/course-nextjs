@@ -11,8 +11,8 @@ const meta: Meta<typeof ButtonBasicDark> = {
 }
 
 export default meta
-type Story = StoryObj<typeof ButtonBasicDark>
+type StoryButtonBasicDarkStory = StoryObj<typeof ButtonBasicDark>
 
-export const Primary: Story = {
+export const ButtonBasicDarkStory: StoryButtonBasicDarkStory = {
   render: () => <ButtonBasicDark />
 }

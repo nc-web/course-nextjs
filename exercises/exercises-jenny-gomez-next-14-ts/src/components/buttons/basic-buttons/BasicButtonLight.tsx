@@ -6,7 +6,7 @@ export default function BasicButtonLight () {
     <>
       <Link href="#">
         <div>
-                    Button
+          Button
         </div>
       </Link>
     </>

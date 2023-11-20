@@ -1,6 +1,6 @@
 
 import Link from 'next/link'
-import styles from '../BasicButtonDark.module.css'
+import styles from './BasicButtonDark.module.css'
 
 export default function BasicButtonDark () {
   return(

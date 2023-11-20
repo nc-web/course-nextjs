@@ -9,7 +9,7 @@
     background-color: #352387;
     color: #ffff;
 
-    &::hover {
+    & :hover {
         background-color: #569457;
         transition: .5s;
     }

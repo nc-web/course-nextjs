@@ -1,0 +1,36 @@
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.main__company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+    .main__nav_link {
+        text-decoration: none;
+    }
+
+    & .main__nav_items:hover {
+        transition: .5s;
+        color: rgba(51, 136, 72, 0.533);
+        transform: scale(1.2);
+    }
+}
+
+.main__login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
