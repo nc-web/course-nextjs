@@ -7,7 +7,7 @@ export default function BasicButtonDark() {
   return (
     <>
       <Link href={'/'}>
-        <div className={styles.button__container}>
+        <div id='data' className={styles.button__container}>
           <p className={styles.button__container_text}>button</p>
         </div>
       </Link>
